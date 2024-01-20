@@ -251,3 +251,69 @@ h3{
     right: 0;
 }
 
+.button-left-boeken{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 3rem;
+    padding: 0.2rem 0.4rem;
+    width: 90%;
+}
+
+.button-right-boeken{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 3rem;
+    padding: 0.2rem 0.4rem;
+    width: 90%;
+}
+
+.left-boeken{
+    background-color: #FFEFC9;
+    padding: 5% 20% 5% 3%;
+    margin: 4% 4% 9rem 4%;
+    height: 45vh;
+    border-radius: 0 3rem 3rem 0;
+    box-shadow: 8px 8px 10px rgba(88, 88, 88, 0.5);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-boeken{
+    background-color: #FFEFC9;
+    padding: 5% 3% 5% 10%;
+    margin: 4% 4% 17rem 4%;
+    height: 45vh;
+    border-radius: 3rem 0 0 3rem;
+    box-shadow: 8px 8px 10px rgba(88, 88, 88, 0.5);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blobs-boeken{ 
+    margin: 21rem 0 0 0;
+    width: 100vw;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.blob-orange-boeken{
+    align-self: flex-start;
+}
+
+.blob-purple-boeken{
+    align-self: flex-end;
+}
