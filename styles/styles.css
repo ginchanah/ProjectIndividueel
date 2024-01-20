@@ -162,7 +162,7 @@ h3{
 .blobs{ 
     margin: 4rem 0 0 0;
     width: 100vw;
-    height: 1400px;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     position: absolute;
