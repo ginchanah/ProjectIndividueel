@@ -179,6 +179,10 @@ h3{
     align-self: flex-end;
 }
 
+.geschiedenis{
+    margin-bottom: 3rem;
+}
+
 .organisatie-container{
     display: flex;
     flex-direction: column;  
@@ -316,4 +320,26 @@ h3{
 
 .blob-purple-boeken{
     align-self: flex-end;
+}
+
+.boekenstal div:first-child{
+    width: 50vw;
+}
+
+.boekenstal{
+    display: flex;
+    flex-direction: row;
+}
+
+.background{
+    position: absolute;
+    width: 100%
+}
+
+.winkelgif{
+    width: 50vw;
+}
+
+.opslaggif{
+    width: 50vw;
 }
