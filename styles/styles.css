@@ -369,7 +369,7 @@ h3{
 .opslag{
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 30vh;
+    margin-bottom: 8vh;
 }
 
 .opslag>div{
@@ -398,6 +398,35 @@ h3{
 .h3-locatie{
     margin: 0;
 }
+
+.expandable{
+    margin-bottom: 30vh;
+}
+
+label{
+    cursor: pointer;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.checkbox{
+    display: none;
+}
+
+input.checkbox[type='checkbox']:checked ~ .info{
+    visibility: visible;
+    opacity: 1;
+    height: 75px;
+}
+
+.info{
+    visibility: hidden;
+    opacity: 0; 
+    height: 0px;
+}
+
+
+
 
 
 
