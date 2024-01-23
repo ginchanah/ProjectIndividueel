@@ -322,24 +322,83 @@ h3{
     align-self: flex-end;
 }
 
-.boekenstal div:first-child{
-    width: 50vw;
+.boekenstal>div{
+    width: 50%;
 }
 
 .boekenstal{
     display: flex;
     flex-direction: row;
+    margin-bottom: 10vh;
 }
 
 .background{
     position: absolute;
-    width: 100%
+    z-index: 1;
+    height: 185px;
+    width: 50vw;
+    background-color: #FFEFC9;
 }
 
 .winkelgif{
+    width: 40vw;
+    margin: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.adres{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 185px;
+    margin: 0 0 0 1rem;
+    color: white;
+}
+
+.background-text{
+    position: absolute;
+    z-index: 1;
+    height: 185px;
     width: 50vw;
+    background-color: #41442F;
+}
+
+.opslag{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30vh;
+}
+
+.opslag>div{
+    width: 50%;
 }
 
 .opslaggif{
-    width: 50vw;
+    width: 40vw;
+    margin: 1rem 1rem 1rem 1.2rem;
+    position: relative;
+    z-index: 2;
 }
+
+.black-line-locatie{
+    height: 0.2rem;
+    width: 90%;
+    background-color: black;
+    margin: 1rem ;
+}
+
+.h2-locatie{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.h3-locatie{
+    margin: 0;
+}
+
+
+
+
