@@ -37,12 +37,12 @@ nav div{
     display: flex;
 }
 
-.boek-open-container{
+.logo-container{
     width: fit-content;
-    padding: 4% 0 0 4%;
+    padding: 3% 0 0 3%;
 }
 
-.boek-open{
+.logo{
     width: 18vw;
 }
 
@@ -63,19 +63,6 @@ nav ul{
     width: 90%;
 }
 
-.logo-container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-self: flex-end;
-    height: 25vh;
-}
-
-.logo{
-    width: 30%;
-    margin: 5%;
-}
-
 main{
     background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/background2.jpeg");
     background-size: cover;
@@ -83,6 +70,17 @@ main{
     background-position: center; 
     border-radius: 3rem 3rem 0 0;
     overflow: hidden;
+}
+
+.info-tekst{
+    background-color: #FFEFC9;
+    margin: 2rem 2.5rem 3rem 2.5rem;
+    padding: 2rem;
+    font-size: larger;
+    box-shadow: 8px 8px 10px rgba(88, 88, 88, 0.5);
+    border-radius: 3rem;
+    position: relative;
+    z-index: 2;
 }
 
 .left{
@@ -161,7 +159,7 @@ h3{
 }
 
 .blobs{ 
-    margin: 4rem 0 0 0;
+    margin: 16rem 0 0 0;
     width: 100vw;
     height: 200vh;
     display: flex;
@@ -185,7 +183,8 @@ h3{
 
 .organisatie-container{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    margin-top: -2rem;  
 }
 
 .organisatie{
@@ -197,6 +196,10 @@ h3{
     z-index: 2;
     margin: 0 0 10rem 0;
     padding: 1rem 1rem 1rem 20%;
+}
+
+.organisatie p:nth-of-type(2){
+    margin-top: 0.5rem;
 }
 
 .bookmark-orange{
@@ -214,20 +217,24 @@ h3{
 .oudemanhuispoort{
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    justify-content: space-around;
+    height: 89vh;
     background-color: #FFEFC9;
     position: relative;
     z-index: 2;
     margin: 0 0 18rem 0;
     padding: 1rem 20% 1rem 1rem;
     align-items: end;
+}
 
+.oudemanhuispoort p:nth-of-type(2){
+    margin-top: 0.5rem;
 }
 
 .bookmark-purple{
     position: absolute;
     z-index: 1;
-    margin-top: 60vh;
+    margin-top: 63vh;
     left: 3vw;
 }
 
@@ -248,7 +255,7 @@ h3{
 
 .green-right{
     width: 18%;
-    height: 90vh;
+    height: 94vh;
     background-color: #41442F;
     position: absolute;
     z-index: 3;
@@ -404,9 +411,12 @@ h3{
 }
 
 label{
+    display: flex;
+    justify-content: space-between;
     cursor: pointer;
-    text-align: center;
     font-size: 2rem;
+    margin: 0 1rem 0 1rem;
+    width: 90vw;
 }
 
 .checkbox{
@@ -423,9 +433,9 @@ input.checkbox[type='checkbox']:checked ~ .info{
     margin: 0.5rem 0 1rem 0;
 }
 
-input.checkbox[type='checkbox']:checked ~ label.peilte-locatie{
-    rotate: 180deg;
-    width: 2rem;
+input.checkbox[type='checkbox']:checked ~ label>img{
+    transform: rotate(180deg);
+    width: 2.5rem;
 }
 
 .info{
@@ -435,8 +445,7 @@ input.checkbox[type='checkbox']:checked ~ label.peilte-locatie{
 }
 
 .peiltje-locatie{
-    rotate: 90deg;
-    width: 2rem;
+    width: 2.5rem;
 }
 
 iframe{
@@ -447,6 +456,54 @@ iframe{
     z-index: 2;
 }
 
+label>img{
+    right: 0;
+}
+
+.duurzaamheid{
+    display: flex;
+    justify-content: center;
+    border-radius: 3rem;
+    background-color: #FFEFC9;
+    padding: 1.5rem;
+}
+
+.duurzaamheid h2{
+    background-color:#53598C;
+    width: 15vw;
+    height: 45vh;
+    margin: -1rem 0 -1rem 0;
+}
+
+.duurzaamheid .bladzijde{
+    width: 37vw;
+    height: 100%;
+}
+
+.amnesty{
+    display: flex;
+}
+
+.amnesty h2{
+    background-color:#53598C;
+    width: 15vw;
+    height: 40vh;
+}
+
+.oxfam{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.oxfam h2{
+    background-color: #41442F;
+    width: 15vw;
+    height: 40vh;
+}
+
+.doelen h2{
+    writing-mode: vertical-lr;
+}
 
 
 
