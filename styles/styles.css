@@ -417,6 +417,15 @@ input.checkbox[type='checkbox']:checked ~ .info{
     visibility: visible;
     opacity: 1;
     height: 75px;
+    background-color: #41442F;
+    color: white;
+    padding: 2rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+input.checkbox[type='checkbox']:checked ~ label.peilte-locatie{
+    rotate: 180deg;
+    width: 2rem;
 }
 
 .info{
@@ -425,6 +434,18 @@ input.checkbox[type='checkbox']:checked ~ .info{
     height: 0px;
 }
 
+.peiltje-locatie{
+    rotate: 90deg;
+    width: 2rem;
+}
+
+iframe{
+    width: 40vw;
+    height: 40vw;
+    margin: 1rem;
+    position: relative;
+    z-index: 2;
+}
 
 
 
