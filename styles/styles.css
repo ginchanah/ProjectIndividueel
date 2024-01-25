@@ -463,42 +463,72 @@ label>img{
 .duurzaamheid{
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 3rem;
     background-color: #FFEFC9;
-    padding: 1.5rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem 5rem 0.5rem;
+    box-shadow: 8px 8px 10px rgba(88, 88, 88, 0.5);
 }
 
 .duurzaamheid h2{
-    background-color:#53598C;
+    background-color:#EB8E24;
     width: 15vw;
     height: 45vh;
-    margin: -1rem 0 -1rem 0;
+    margin: -0.5rem 0 -0.5rem 0;
+    color: white;
+    padding: 2rem 0 0 0.6rem;
+}
+
+ul{
+    padding: 0.8rem;
 }
 
 .duurzaamheid .bladzijde{
     width: 37vw;
     height: 100%;
+    padding: 0.5rem;
 }
 
 .amnesty{
     display: flex;
+    background-color: #FFEFC9;
+    margin: 0 3rem 5rem 1rem;
+    border-radius: 0 3rem 3rem 0;
+    box-shadow: 8px 8px 10px rgba(88, 88, 88, 0.5);
 }
 
 .amnesty h2{
     background-color:#53598C;
     width: 15vw;
-    height: 40vh;
+    height: 289px;
+    color: white;
+    padding: 2rem 0 0 0.6rem;
+}
+
+.amnesty p{
+    padding: 1.5rem 1.5rem 1.5rem 0.5rem;
 }
 
 .oxfam{
     display: flex;
     flex-direction: row-reverse;
+    background-color: #FFEFC9;
+    margin: 0 1rem 13rem 3rem;
+    border-radius: 3rem 0 0 3rem;
+    box-shadow: 8px 8px 10px rgba(88, 88, 88, 0.5);
 }
 
 .oxfam h2{
     background-color: #41442F;
     width: 15vw;
     height: 40vh;
+    color: white;
+    padding: 2rem 0 0 0.6rem;
+}
+
+.oxfam p{
+    padding: 1.5rem 0.5rem 1.5rem 1.5rem;
 }
 
 .doelen h2{
